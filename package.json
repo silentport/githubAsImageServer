@@ -1,5 +1,5 @@
 {
-  "name": "github-as-imageServer",
+  "name": "github-as-image-server",
   "version": "1.0.0",
   "description": "use github.io as static server",
   "main": "lib/index.js",
