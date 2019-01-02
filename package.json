@@ -1,10 +1,10 @@
 {
-  "name": "githubasserver",
+  "name": "github-as-imageServer",
   "version": "1.0.0",
   "description": "use github.io as static server",
-  "main": "main.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/index.js"
   },
   "author": "liyonglong",
   "license": "MIT",
