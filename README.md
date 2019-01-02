@@ -1,7 +1,8 @@
 ### githubAsImageServer
 
->  A Koa middleware that use github.io as image repository
-
+> A Koa middleware that use github.io as image repository
+### node version
+> >=10.x
 #### usage
 
 ```javascript
@@ -11,9 +12,9 @@ const app = new Koa()
 const githubAsImageServer = require('../lib');
 
 app.use(githubAsImageServer({
-  targetDir: `D:/project/silentport.github.io`, // local path of git pepo
+  targetDir: `D:/project/silentport.github.io`, // local path of git repo
   repo: 'https://github.com/silentport/silentport.github.io.git', // address of git repo
-  url: 'https://silentport.github.io', // host of github.io
+  url: 'https://silentport.github.io', // host of your github.io
   dir: 'upload', // dirname will save image
   project: 'blog', // child dirname will save image
   router: '/upload' // path of request
