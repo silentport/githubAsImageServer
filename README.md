@@ -1,4 +1,4 @@
-### GithubAsRepo
+### githubAsImageServer
 
 >  A Koa middleware that use github.io as image repository
 
@@ -8,9 +8,9 @@
 const Koa = require('koa')
 const app = new Koa()
 
-const githubAsRepo = require('../lib');
+const githubAsImageServer = require('../lib');
 
-app.use(githubAsRepo({
+app.use(githubAsImageServer({
   targetDir: `D:/project/silentport.github.io`, // local path of git pepo
   repo: 'https://github.com/silentport/silentport.github.io.git', // address of git repo
   url: 'https://silentport.github.io', // host of github.io
