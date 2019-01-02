@@ -1,8 +1,8 @@
 ### githubAsImageServer
 
 > A Koa middleware that use github.io as image repository
-### node version
-> >=10.x
+#### node version
+> \>=10.x
 #### usage
 
 ```javascript
@@ -20,9 +20,6 @@ app.use(githubAsImageServer({
   router: '/upload' // path of request
 }))
 
-app.use(async (ctx, next) => {
-    next()
-})
 
 app.listen(8002, () => {
   console.log('server is started!');
