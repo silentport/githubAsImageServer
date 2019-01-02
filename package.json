@@ -1,6 +1,6 @@
 {
   "name": "github-as-image-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "use github.io as static server",
   "main": "lib/index.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "liyonglong",
   "license": "MIT",
   "dependencies": {
+    "formidable": "^1.2.1",
     "koa": "^2.6.2",
-    "tinify": "^1.6.0-beta.2",
     "webp-converter": "^2.1.6"
   }
 }

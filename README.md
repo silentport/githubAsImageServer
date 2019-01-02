@@ -5,6 +5,10 @@
 > \>=10.x
 #### usage
 
+``` javascript
+ npm i github-as-image-server -S
+```
+
 ```javascript
 const Koa = require('koa')
 const app = new Koa()
