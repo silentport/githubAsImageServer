@@ -1,11 +1,8 @@
 {
   "name": "github-as-image-server",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "use github.io as static server",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "mocha test/index.js"
-  },
   "author": "liyonglong",
   "license": "MIT",
   "repository": {
