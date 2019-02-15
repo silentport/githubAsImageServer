@@ -1,8 +1,10 @@
 ### githubAsImageServer
+[![Build Status](https://travis-ci.org/silentport/githubAsImageServer.svg?branch=master)](https://travis-ci.org/silentport/githubAsImageServer)
+<a href="https://www.npmjs.com/package/github-as-image-server"><img alt="undefined" src="https://img.shields.io/npm/v/github-as-image-server.svg?style=flat"></a>
+![](https://img.shields.io/node/v/github-as-image-server.svg?style=flat)
 
 > A Koa middleware that use github.io as image repository
-#### node version
-> \>=10.x
+
 #### usage
 
 ``` javascript

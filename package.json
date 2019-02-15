@@ -1,6 +1,6 @@
 {
   "name": "github-as-image-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "use github.io as static server",
   "main": "lib/index.js",
   "scripts": {
@@ -8,9 +8,16 @@
   },
   "author": "liyonglong",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silentport/githubAsImageServer.git"
+  },
   "dependencies": {
     "formidable": "^1.2.1",
     "koa": "^2.6.2",
     "webp-converter": "^2.1.6"
+  },
+  "engines": {
+    "node": ">=10.0"
   }
 }
